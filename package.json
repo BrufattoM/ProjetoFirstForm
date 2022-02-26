@@ -1,0 +1,24 @@
+{
+  "name": "projetofirstform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Servidor/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrufattoM/ProjetoFirstForm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrufattoM/ProjetoFirstForm/issues"
+  },
+  "homepage": "https://github.com/BrufattoM/ProjetoFirstForm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
