@@ -1,11 +1,11 @@
 {
-    "Funcionario":[
-        {
-            "nome": "Rafael Brufatto",
-            "email": "rafael.qi@qi.edu.br",
-            "data_nasc": "11/07/2000",
-            "salario": "1225,40",
-            "cargo:": "Professor"
-        }
-    ]
+  "Funcionario": [
+    {
+      "nome": "Rafael Brufatto",
+      "email": "rafael.qi@qi.edu.br",
+      "data_nasc": "11/07/2000",
+      "salario": "1225,40",
+      "cargo": "Professor"
+    }
+  ]
 }
