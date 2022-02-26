@@ -11,16 +11,6 @@
     height: 100%;
     position: relative;
   }
-  
-  a{
-    text-decoration: none;
-  }
-  
-  /* esconde as ancoras da tela */
-  a.links{
-    display: none;
-  }
-  
   /* content que contem os formulários */
   .content{
     width: 500px;
