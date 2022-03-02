@@ -6,6 +6,13 @@
       "data_nasc": "11/07/2000",
       "salario": "1225,40",
       "cargo": "Professor"
+    },
+    {
+      "nome": "rita",
+      "email": "brufajade@gmail.com",
+      "data_nasc": "2000-07-11",
+      "salario": "5468",
+      "cargo": "gerente"
     }
   ]
 }

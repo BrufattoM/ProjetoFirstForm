@@ -30,12 +30,7 @@ http.createServer((req, res) => {
         return res.end(JSON.stringify(employees))
 
     //Adicionar funcionarios
-    if(nome,email,data_nasc,salario,cargo){
-        employees.Funcionario.push({nome,email,data_nasc,salario,cargo})
-        return writeFile((message) => res.end(message)) 
-    }
-        
+    employees.Funcionario.push({nome,email,data_nasc,salario,cargo})
+    return writeFile((message) => res.end(message)) 
 
-    
-   
 }).listen(3000, () => console.log('Api is running'))
