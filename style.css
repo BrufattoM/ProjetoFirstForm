@@ -139,6 +139,10 @@
     animation-timing-function: ease;
     animation-fill-mode: both;
   }
+  #total_salario{
+    border: none;
+    background-color: #cee1e4;
+  }
   
   
 

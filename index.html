@@ -5,6 +5,7 @@
     <title>Formulário de cadastro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="basic_script.js"></script>
 </head>
 
 <body>
@@ -40,10 +41,16 @@
                     <p>
                         <label for="seu_cargo">Seu cargo</label><br>
                         <select name="cargo" id="comboBoxCargo">
-                            <option value="professor">Professor</option>
-                            <option value="gerente" selected>Gerente</option>
-                            <option value="atendente">Atendente</option>
+                            <option value="empty" selected>Selecione...</option>
+                            <option value="analista" >Analista</option>
+                            <option id="CBgerente" value="gerente">Gerente</option>
+                            <option value="desenvolvedor">Desenvolvedor</option>
+                            <option value="DBA">DBA</option>
                         </select>
+                    </p>
+                    <p>
+                        <label for="salario_total">Salário total</label>
+                        <input type="text" name="salario_total" id="total_salario" disabled>
                     </p>
 
                     <p>

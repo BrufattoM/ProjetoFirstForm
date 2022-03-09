@@ -3,6 +3,8 @@ const URL = require('url')
 const fs = require('fs')
 const path = require('path')
 
+
+
 const employees = require('./funcionarios.json')
 
 function writeFile(cb) {
@@ -14,6 +16,7 @@ function writeFile(cb) {
 
             cb(JSON.stringify({message: "ok"}))
         }
+       
     )
 }
 
@@ -31,6 +34,7 @@ http.createServer((req, res) => {
 
     //Adicionar funcionarios
     employees.Funcionario.push({nome,email,data_nasc,salario,cargo})
-    return writeFile((message) => res.end(message)) 
-
+    return writeFile((message) => res.end(message))
+    
+    
 }).listen(3000, () => console.log('Api is running'))

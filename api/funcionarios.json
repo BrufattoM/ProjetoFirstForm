@@ -9,9 +9,16 @@
     },
     {
       "nome": "rita",
-      "email": "brufajade@gmail.com",
-      "data_nasc": "2000-07-11",
-      "salario": "5468",
+      "email": "rafael.jade3@outlook.com",
+      "data_nasc": "1954-08-15",
+      "salario": "8000",
+      "cargo": "gerente"
+    },
+    {
+      "nome": "rita",
+      "email": "rafael.jade3@outlook.com",
+      "data_nasc": "1954-08-15",
+      "salario": "8000",
       "cargo": "gerente"
     }
   ]
