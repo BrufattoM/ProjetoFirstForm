@@ -21,5 +21,8 @@
   "homepage": "https://github.com/BrufattoM/ProjetoFirstForm#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "roman-numerals": "^0.3.2"
   }
 }

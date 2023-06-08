@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="basic_script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="cadastro">
+                <form method="get" action="http://localhost:3000/">
+                    <h1>Cadastro de Funcionario</h1>
+
+                    <p>
+                        <label for="nome_cad">Seu nome</label>
+                        <input id="nome" name="nome" required="required" type="text" placeholder="nome" />
+                    </p>
+
+                    <p>
+                        <label for="email_cad">Seu e-mail</label>
+                        <input id="email_cad" name="email" required="required" type="email"
+                            placeholder="contato@htmlecsspro.com" />
+                    </p>
+
+                    <p>
+                        <label for="data_nasc">Sua data de nascimento</label>
+                        <input id="data_nasc" name="data_nasc" required="required" type="date"
+                            placeholder="ex. 11/07/2000" />
+                    </p>
+
+                    <p>
+                        <label for="salario_info">Seu salario</label>
+                        <input id="salario_info" name="salario" required="required" type="text"
+                            placeholder="ex. 1234" />
+                    </p>
+
+                    <p>
+                        <label for="seu_cargo">Seu cargo</label><br>
+                        <select name="cargo" id="comboBoxCargo">
+                            <option value="empty" selected>Selecione...</option>
+                            <option value="analista" >Analista</option>
+                            <option id="CBgerente" value="gerente">Gerente</option>
+                            <option value="desenvolvedor">Desenvolvedor</option>
+                            <option value="DBA">DBA</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="salario_total">Salário total</label>
+                        <input type="text" name="salario_total" id="total_salario" disabled>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastrar" />
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
